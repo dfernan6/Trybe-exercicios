@@ -1,3 +1,5 @@
-Cerveja
-Suco
-Coca-Cola
+1 - Cerveja
+2 - Suco
+3 - Coca-Cola
+4 - Cha
+5 - Cafe
