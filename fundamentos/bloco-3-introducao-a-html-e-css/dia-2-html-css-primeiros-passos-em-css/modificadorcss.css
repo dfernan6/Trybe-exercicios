@@ -4,51 +4,80 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
-color: rgb(199, 201, 201);
-background-color: rgb(57, 114, 76);
+color: cornsilk;
 text-shadow: black ;
-}
-img#logo1 {
-    background-color: cornsilk;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: rgba(255, 255, 255, 0.3);  
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ol {
     text-align: left;
-    color: rgb(199, 201, 201); 
+    color:cornsilk; 
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-color: seashell;
+color: rgb(0, 0, 0);
+background-color: cornsilk;
 text-align: left;
 }
 h2 {
-color: seashell;
+color: cornsilk;
 }
-div {
+div#iInterface {
     background-color: black;
-    margin: 10px 300px 10px 300px;
+    width: 520px;
+    margin: auto;
     box-shadow: rgba(255, 255, 255, 0.3);
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
     padding: 10px;
+    height: 700px;
+    position: solid;
     }
 li {
     font-weight: bold
 }
 img#iFotoPerfil {
-    width: 200px;
-    margin: -200px 10px 10px 700px;
+    width: 130px;
+    margin: -200px 10px 60px 800px;
+    display: flex;
 }
-div#iFrase {
-    text-align: center;
-    background-color: rgb(31, 29, 29);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+div#iLateral {
+    background-color: black;
+    width: 430px;
+    margin: auto;
+    box-shadow: rgba(255, 255, 255, 0.3);
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    padding: 10px;
     color: cornsilk;
+    position: solid;
+    height: 700px;
 }
 footer {
     color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div#iCabecalho {
+    background-color: black;
+    width: 1000px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: cornsilk;
+    height: 190px;
+}
+aside {
+    margin-top: -725px;
+    margin-right: -550px;
+}
+section {
+    margin-top: 10px;
+    margin-left: -460px;
+}
+header {
+    margin: auto;
 }
