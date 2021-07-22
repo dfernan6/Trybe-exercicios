@@ -8,12 +8,6 @@ color: cornsilk;
 text-shadow: black ;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-img#logo1 {
-    background-color: cornsilk;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: rgba(255, 255, 255, 0.3); 
-}
 ol {
     text-align: left;
     color:cornsilk; 
@@ -29,25 +23,27 @@ color: cornsilk;
 }
 div#iInterface {
     background-color: black;
-    width: 900px;
+    width: 520px;
     margin: auto;
     box-shadow: rgba(255, 255, 255, 0.3);
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 10px;
+    height: 700px;
+    position: solid;
     }
 li {
     font-weight: bold
 }
 img#iFotoPerfil {
     width: 130px;
-    margin: -200px 10px 50px 700px;
+    margin: -200px 10px 60px 800px;
+    display: flex;
 }
-div#iFrase {
+div#iLateral {
     background-color: black;
-    width: 900px;
+    width: 430px;
     margin: auto;
     box-shadow: rgba(255, 255, 255, 0.3);
     border-style: solid;
@@ -55,7 +51,8 @@ div#iFrase {
     border-radius: 5px;
     padding: 10px;
     color: cornsilk;
-    margin-top: 10px;
+    position: solid;
+    height: 700px;
 }
 footer {
     color: cornsilk;
@@ -63,7 +60,7 @@ footer {
 }
 div#iCabecalho {
     background-color: black;
-    width: 917px;
+    width: 1000px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.3);
     border-style: solid;
@@ -71,5 +68,16 @@ div#iCabecalho {
     border-radius: 5px;
     margin-top: 10px;
     color: cornsilk;
-    height: 150px;
+    height: 190px;
+}
+aside {
+    margin-top: -725px;
+    margin-right: -550px;
+}
+section {
+    margin-top: 10px;
+    margin-left: -460px;
+}
+header {
+    margin: auto;
 }
