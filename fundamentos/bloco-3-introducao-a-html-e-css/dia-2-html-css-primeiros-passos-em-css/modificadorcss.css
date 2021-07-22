@@ -20,6 +20,7 @@ text-align: left;
 }
 h2 {
 color: cornsilk;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div#iInterface {
     background-color: black;
@@ -38,7 +39,7 @@ li {
 }
 img#iFotoPerfil {
     width: 130px;
-    margin: -200px 10px 60px 800px;
+    margin: -180px 0px 100px 380px;
     display: flex;
 }
 div#iLateral {
@@ -57,6 +58,7 @@ div#iLateral {
 footer {
     color: cornsilk;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
 }
 div#iCabecalho {
     background-color: black;
@@ -66,18 +68,17 @@ div#iCabecalho {
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
-    margin-top: 10px;
     color: cornsilk;
     height: 190px;
 }
 aside {
-    margin-top: -725px;
-    margin-right: -550px;
+    margin-top: -726px;
+    margin-left: 550px;
 }
 section {
     margin-top: 10px;
-    margin-left: -460px;
+    margin-right: 460px;
 }
 header {
-    margin: auto;
+    margin-top: 50px;
 }
