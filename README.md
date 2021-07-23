@@ -4,4 +4,4 @@
 3 - Mais um HTML adicionado Treinos#2.html <br>
 4 - Enviado o rascunho para treinamento de meu portfólio.<br>
 5 - Exericicos do bloco02 send feito <br>
-6 - Exercicios do dia 3.2 em atividades <br>
+6 - Concluido atividades dia 3.2 e adicionado gif editado por: https://audaciando.home.blog/2019/07/16/linguagens-de-programacao/<br>
