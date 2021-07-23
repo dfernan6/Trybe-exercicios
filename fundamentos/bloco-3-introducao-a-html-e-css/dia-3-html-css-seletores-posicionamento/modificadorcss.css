@@ -118,7 +118,6 @@ h3 {
     color: white;
     margin-left: 10px;
     font-size: 20px;
-    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }span:hover {
     background-color: cornsilk;
@@ -132,4 +131,7 @@ img#iTrybe {
     width: 170px;
     margin-left: 810px;
     margin-top: 10px;
+}
+img#iEemoji{
+    width: 50px;
 }
