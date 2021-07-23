@@ -7,6 +7,8 @@ p {
 color: cornsilk;
 text-shadow: black ;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+margin-left: 10px;
 }
 ol {
     text-align: left;
@@ -16,14 +18,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 h1 {
 color: rgb(0, 0, 0);
 background-color: cornsilk;
-text-align: center;
+text-align: left;
 font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, sans-serif ;
 padding-left: 10px;
 }
 h2 {
 color: cornsilk;
 font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, sans-serif ;
-text-align: center;
+text-align: left;
 margin-left: 10px;
 }
 div#iInterface {
@@ -40,12 +42,13 @@ div#iInterface {
     box-shadow: inset 0 0 10px 1px cornsilk;
     }
 li {
-    font-weight: bold
+    font-weight: bold;
+    color: cornsilk;
+    text-align: left;
 }
 img#iFotoPerfil {
     width: 130px;
     margin: -150px 50px 10px 800px;
-    display: flex;
 }
 div#iLateral {
     background-color: black;
@@ -109,4 +112,12 @@ img#iDev {
     border-color: cornsilk;
     border-radius: 5px;
     box-shadow: 0 0 10px 2px cornsilk;
+}
+h3 {
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
