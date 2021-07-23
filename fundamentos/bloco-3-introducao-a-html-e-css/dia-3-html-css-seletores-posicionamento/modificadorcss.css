@@ -25,7 +25,7 @@ padding-left: 10px;
 h2 {
 color: cornsilk;
 font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, sans-serif ;
-text-align: left;
+text-align: center;
 margin-left: 10px;
 }
 div#iInterface {
@@ -132,6 +132,15 @@ img#iTrybe {
     margin-left: 810px;
     margin-top: 10px;
 }
-img#iEemoji{
+img#iEmoji{
     width: 50px;
+    margin-left: 20px;
+}
+img#iCurriculo {
+    width: 100px;
+    margin-top: -100px;
+    position: absolute;
+}
+p#iPrimeiroTxt {
+    text-align: center;
 }
