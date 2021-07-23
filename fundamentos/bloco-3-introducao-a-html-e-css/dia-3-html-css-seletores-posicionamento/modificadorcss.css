@@ -48,7 +48,7 @@ li {
 }
 img#iFotoPerfil {
     width: 130px;
-    margin: -150px 50px 10px 800px;
+    margin: -190px 50px 30px 800px;
 }
 div#iLateral {
     background-color: black;
@@ -120,4 +120,16 @@ h3 {
     font-size: 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}span:hover {
+    background-color: cornsilk;
+    color:black;  
+}
+span:active{
+    color: black;
+    background-color: white;
+}
+img#iTrybe {
+    width: 170px;
+    margin-left: 810px;
+    margin-top: 10px;
 }
