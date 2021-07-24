@@ -10,11 +10,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: left;
 margin-left: 10px;
 }
-ol {
-    text-align: left;
-    color:cornsilk; 
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 h1 {
 color: rgb(0, 0, 0);
 background-color: cornsilk;
@@ -37,10 +32,9 @@ div#iInterface {
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
-
     height: 700px;
     position: solid;
-    box-shadow: inset 0 0 10px 1px cornsilk;
+    box-shadow: inset 0 0 5px 1px cornsilk;
     }
 li {
     font-weight: bold;
@@ -49,7 +43,7 @@ li {
 }
 img#iFotoPerfil {
     width: 130px;
-    margin: -190px 50px 30px 800px;
+    margin: -200px 50px 30px -650px;
 }
 div#iLateral {
     background-color: black;
@@ -61,7 +55,7 @@ div#iLateral {
     color: cornsilk;
     position: solid;
     height: 500px;
-    box-shadow: inset 0 0 10px 1px cornsilk;
+    box-shadow: inset 0 0 5px 1px cornsilk;
 
 }
 footer {
@@ -78,7 +72,7 @@ div#iCabecalho {
     border-radius: 5px;
     color: cornsilk;
     height: 210px;
-    box-shadow: inset 0 0 10px 1px cornsilk;
+    box-shadow: inset 0 0 5px 1px cornsilk;
 }
 aside {
     margin-top: -733px;
@@ -89,7 +83,6 @@ section {
     margin-right: 207px;
 }
 header {
-    margin-top: 50px;
     margin-bottom: 5px;
 }
 img#iWhatsapp {
@@ -112,7 +105,7 @@ img#iDev {
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
-    box-shadow: 0 0 10px 2px cornsilk;
+    box-shadow: 0 0 2px 2px cornsilk;
 }
 h3 {
     text-align: left;
@@ -140,6 +133,7 @@ img#iEmoji{
 img#iDevIcone {
     width: 150px;
     margin-top: -150px;
+    margin-left: 550px;
     position: absolute;
 }
 p#iPrimeiroTxt {
@@ -148,6 +142,44 @@ p#iPrimeiroTxt {
 p#iTopo {
 text-align: right;
 color: black;
-margin-top: -40px;
+margin-top: -60px;
+margin-bottom: -5px;
 padding-right: 10px;
+font-family: 'Fuggles', cursive;
+font-size: 40px;
+}
+nav#iMenu {
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -10px;
+}
+nav#iMenu ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#iMenu li {
+    display: inline-block;
+    background-color: cornsilk;
+    font-size: 14px;
+}
+a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+nav#iMenu li:hover {
+    background-color: black;
+    transition: 1s;
+    
+}
+a:hover {
+    color: cornsilk;
+}
+nav#iMenu li:active {
+    background-color: white;
+    transition: none;
+}
+a:active {
+    color:black;
 }
