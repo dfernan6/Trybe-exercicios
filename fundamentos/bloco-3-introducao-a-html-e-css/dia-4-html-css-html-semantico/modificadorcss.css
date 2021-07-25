@@ -1,5 +1,5 @@
 :root, body, html {
-        background-color: grey;
+     background-color: rgb(54, 50, 29);
         box-sizing: content-box;
     }
     html{
@@ -55,7 +55,7 @@ img#iFotoPerfil {
 div#iLateral {
     background-color: black;
     width: 180px;
-    margin-left: 123px;
+    margin: auto;
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
@@ -71,6 +71,7 @@ footer {
     margin-top: 10px;
     text-align: center;
     font-size: 12px;
+    clear: both;
 }
 div#iCabecalho {
     background-color: black;
@@ -84,13 +85,16 @@ div#iCabecalho {
     box-shadow: inset 0 0 5px 1px cornsilk;
 }
 aside {
-    width: 552px;
-    margin-top: -386px;
-    margin-left: 730px;
-}
-    section {
-            margin-top: 5px;
-            margin-right: 190px;
+    width: 180px;
+    background-color: rgb(54, 50, 29);
+    display: block;
+    float: right;
+    margin: 0px 400px -50px -611px;
+} section {
+    background-color: rgb(54, 50, 29);
+    width: 450px;
+    float: left;
+    margin: 0px 590px 10px 397px;
     }
 header {
     margin-bottom: 5px;
@@ -115,8 +119,7 @@ img#iDev {
     border-color: cornsilk;
     border-radius: 5px;
     box-shadow: 0 0 2px 2px cornsilk;
-    margin-left: 128px;
-    margin-top: -18px;
+margin: auto;
 }span:hover {
     background-color: cornsilk;
     color:black;  
