@@ -212,3 +212,6 @@ p#iFooter{
     margin-bottom: -2px;
     color: white;
 }
+div#iPrincipal {
+position: absolute;;
+}
