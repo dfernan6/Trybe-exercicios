@@ -1,5 +1,5 @@
 :root, body, html {
-     background-color: rgb(54, 50, 29);
+     background-color: rgb(28,28,28);
         box-sizing: content-box;
     }
     html{
@@ -55,7 +55,7 @@ img#iFotoPerfil {
 div#iLateral {
     background-color: black;
     width: 180px;
-    margin: auto;
+    margin-bottom: auto;
     border-style: solid;
     border-color: cornsilk;
     border-radius: 5px;
@@ -64,14 +64,6 @@ div#iLateral {
     height: 235px;
     box-shadow: inset 0 0 5px 1px cornsilk;
 
-}
-footer {
-    color: cornsilk;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12px;
-    clear: both;
 }
 div#iCabecalho {
     background-color: black;
@@ -84,20 +76,30 @@ div#iCabecalho {
     height: 210px;
     box-shadow: inset 0 0 5px 1px cornsilk;
 }
+footer {
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px 0px 400px;
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+    width: 450px;
+}
 aside {
     width: 180px;
-    background-color: rgb(54, 50, 29);
+    background-color: rgb(28,28,28);
     display: block;
     float: right;
     margin: 0px 400px -50px -611px;
 } section {
-    background-color: rgb(54, 50, 29);
+    background-color: rgb(28,28,28);
     width: 450px;
     float: left;
     margin: 0px 590px 10px 397px;
     }
 header {
-    margin-bottom: 5px;
+    margin: 0px 0px 5px 400px;
+    width: 640px;
 }
 img#iWhatsapp {
     width: 30px;
@@ -129,8 +131,8 @@ span:active{
     background-color: white;
 }
 img#iTrybe {
-    width: 170px;
-    margin: auto;
+    width: 160px;
+    margin-top: 5px;
 }
 img#iEmoji{
     width: 50px;
@@ -153,7 +155,7 @@ nav#iMenu {
     display: block;
     position: inherit;
     width: 700px;
-    margin: -15px 0px -25px -35px;
+    margin: -17px 0px -22px -43px
     
 }
 nav#iMenu ul {
@@ -186,12 +188,20 @@ a:active {
     color:black;
 }
 .cFooter {
-color: white;
+color: cornsilk;
 }
+.cFooter:hover {
+    color: white;
+    text-decoration: underline;
+}
+.cFooter:active {
+    color: cornsilk;
+    text-decoration: underline;
+}
+
 img#iHardSkills {
     width: 120px;
     margin-left: 530px;
     margin-top: -120px;
     position: absolute;
 }
-
