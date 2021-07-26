@@ -95,7 +95,7 @@ aside {
     background-color: rgb(28,28,28);
     width: 450px;
     float: left;
-    margin: 0px 590px 10px 397px;
+    margin: 0px 590px 10px 400px;
     }
 header {
     margin: 0px 0px 5px 400px;
@@ -103,6 +103,7 @@ header {
 }
 img#iWhatsapp {
     width: 30px;
+    margin-left: 5px;
 }
 img#iGithub {
     width: 30px;
@@ -111,8 +112,9 @@ img#iLinkedin {
     width: 30px;
 }
 img#iEmail {
-    width: 20px;
+    width: 30px;
     margin-top: 10px;
+    margin-left: 5px;
 
 }
 img#iDev {
@@ -204,4 +206,13 @@ img#iHardSkills {
     margin-left: 530px;
     margin-top: -120px;
     position: absolute;
+}
+.cImgContato {
+    margin-left: 1px;
+    margin-bottom: 5px;
+}
+p#iContato{
+    font-size: 8px;
+    color: white;
+    font-style: italic;
 }
