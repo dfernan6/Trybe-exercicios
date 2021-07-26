@@ -1,0 +1,207 @@
+:root, body, html {
+     background-color: rgb(28,28,28);
+        box-sizing: content-box;
+    }
+    html{
+
+        height: 100%;
+    
+    }
+p {
+color: cornsilk;
+text-shadow: black ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+margin-left: 10px;
+}
+h1 {
+color: rgb(0, 0, 0);
+background-color: cornsilk;
+text-align: left;
+font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, sans-serif ;
+padding-left: 10px;
+}
+h2 {
+color: cornsilk;
+font-family: 'Zen Tokyo Zoo', Impact, Haettenschweiler, sans-serif ;
+text-align: center;
+margin-left: 10px;
+font-size: 35px;
+}
+div#iInterface {
+    background-color: black;
+    width: 450px;
+    margin: auto;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    color: cornsilk;
+    position: solid;
+    height: 400px;
+    box-shadow: inset 0 0 5px 1px cornsilk;
+
+}
+li {
+    font-weight: bold;
+    color: cornsilk;
+    text-align: left;
+}
+img#iFotoPerfil {
+    width: 120px;
+    margin-top: -130px;
+    margin-left: 10px;
+    position: absolute;
+}
+div#iLateral {
+    background-color: black;
+    width: 180px;
+    margin-bottom: auto;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    color: cornsilk;
+    position: solid;
+    height: 235px;
+    box-shadow: inset 0 0 5px 1px cornsilk;
+
+}
+div#iCabecalho {
+    background-color: black;
+    width: 640px;
+    margin: auto;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    color: cornsilk;
+    height: 210px;
+    box-shadow: inset 0 0 5px 1px cornsilk;
+}
+footer {
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px 0px 400px;
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+    width: 450px;
+}
+aside {
+    width: 180px;
+    background-color: rgb(28,28,28);
+    display: block;
+    float: right;
+    margin: 0px 400px -50px -611px;
+} section {
+    background-color: rgb(28,28,28);
+    width: 450px;
+    float: left;
+    margin: 0px 590px 10px 397px;
+    }
+header {
+    margin: 0px 0px 5px 400px;
+    width: 640px;
+}
+img#iWhatsapp {
+    width: 30px;
+}
+img#iGithub {
+    width: 30px;
+}
+img#iLinkedin {
+    width: 30px;
+}
+img#iEmail {
+    width: 20px;
+    margin-top: 10px;
+
+}
+img#iDev {
+    width: 172px;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px cornsilk;
+margin: auto;
+}span:hover {
+    background-color: cornsilk;
+    color:black;  
+}
+span:active{
+    color: black;
+    background-color: white;
+}
+img#iTrybe {
+    width: 160px;
+    margin-top: 5px;
+}
+img#iEmoji{
+    width: 50px;
+    margin-left: 20px;
+}
+p#iPrimeiroTxt {
+    text-align: center;
+    font-size: 12px;
+}
+p#iTopo {
+text-align: right;
+color: black;
+margin-top: -60px;
+margin-bottom: -5px;
+padding-right: 10px;
+font-family: 'Fuggles', cursive;
+font-size: 40px;
+}
+nav#iMenu {
+    display: block;
+    position: inherit;
+    width: 700px;
+    margin: -17px 0px -22px -43px
+    
+}
+nav#iMenu ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#iMenu li {
+    display: inline-block;
+    background-color: cornsilk;
+    font-size: 11px;
+}
+a {
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+}
+nav#iMenu li:hover {
+    background-color: black;
+    transition: 1s;
+    
+}
+a:hover {
+    color: cornsilk;
+}
+nav#iMenu li:active {
+    background-color: white;
+    transition: none;
+}
+a:active {
+    color:black;
+}
+.cFooter {
+color: cornsilk;
+}
+.cFooter:hover {
+    color: white;
+    text-decoration: underline;
+}
+.cFooter:active {
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+img#iHardSkills {
+    width: 120px;
+    margin-left: 530px;
+    margin-top: -120px;
+    position: absolute;
+}
