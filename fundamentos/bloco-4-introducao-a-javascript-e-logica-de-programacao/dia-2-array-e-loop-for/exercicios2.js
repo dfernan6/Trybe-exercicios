@@ -20,3 +20,16 @@ for (var i=1 ; i<=numbers.length ; i+=1){
     }
 }
 console.log("O maior valor é " + maiorValor) // calculando o maior valor
+ 
+let valoresImpares = numbers[0];
+for (let index=0;index<numbers.length;index+=1) {
+    let valor = numbers[index] % 2;
+   if (valor === 1 || valor === 3){
+ valoresImpares = numbers[index];
+ console.log("Valores impares encontrados "+ valoresImpares)
+   }
+ else{
+     console.log("não há valores ìmpares")
+    }
+   } // verificandi valores impares
+  
