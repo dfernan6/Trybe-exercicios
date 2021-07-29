@@ -14,5 +14,3 @@ for (let index=0;index<numbers.length;index+=1) {
    let total = media / numbers.length 
     console.log(total);
  } // calcular a media aritmetica do array
-
- 
