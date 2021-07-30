@@ -31,5 +31,5 @@ for (let index=0;index<numbers.length;index+=1) {
  else{
      console.log("não há valores ìmpares")
     }
-   } // verificandi valores impares
+   } // verificando valores impares
   

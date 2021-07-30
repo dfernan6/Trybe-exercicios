@@ -1,11 +1,12 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numeros = 0;
+let res = [];
 
-let qtdeDeValores = numbers.length;
-let menorValor = numbers[0];
-for (var i=1 ; i<=numbers.length ; i+=1){
-    if ( menorValor < numbers[i]) {
-        menorValor = numbers[i];
-    }
-}
-console.log("O menor valor é " + menorValor)
-// verificar o menor valor 
+for (let index=1;index<=25;index+=1) {
+  res = numeros + index;
+    console.log(res);
+} // fazendo a contagem de 1 ate 25
+
+for (let index=1;index<=25;index+=1) {
+    res = numeros + index;
+      console.log(res / 2); 
+}// mesmo exercicio mas dividindo todos por 2
