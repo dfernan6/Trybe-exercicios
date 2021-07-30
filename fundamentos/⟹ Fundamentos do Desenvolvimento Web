@@ -355,6 +355,12 @@ criado 2 for e um if pra imprimir o resultado >:D
 .forEach()
 Caso você precise executar algum código para cada elemento do Array, executar um forEach é muito mais simples do que criar um for ou while, já que não precisamos declarar variáveis de controle.
 
+⟹ Baby steps
 
+⏣ Eu resolvi o problema?
+⏣ Havia outras maneiras de resolver o problema?
+⏣ A maneira que eu escolhi foi a mais eficiente possível?
+⏣ Seria possível inverter ou retirar algum passo?
+⏣ Se eu fosse um computador, conseguiria entender todas as intruções?
 
 
