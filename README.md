@@ -8,3 +8,4 @@
 7 - Finzalizado os exercicios do dia 3.3 <br>
 8 - Exercicios 3.4 finalizados <br>
 9 - Primeiros exericios em JS <br>
+10 - Exercicios 4.2 finalizados <br>
