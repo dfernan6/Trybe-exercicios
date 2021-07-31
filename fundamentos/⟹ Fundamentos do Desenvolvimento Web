@@ -121,11 +121,11 @@ git add meu_arquivo.txt
 # Ao comitar você deve adicionar também uma mensagem que descreve o que aquela alteração faz
 
 git commit -m "Mensagem sobre a alteração feita"
-git log = historico das branchs
+git log = historico da branch
 q = pra sair do log
-git branch = mostra a lista das brenchs
-git checkout -b nomeUsuario = cria o branch e já acessa o nomeUsuario definido
-git branch -d nomeUsuario = deleta a branch
+git branch = mostra a lista das branchs
+git checkout -b nomeDaBranch = cria o branch e já acessa o nomeUsuario definido
+git branch -d nomeDaBranch = deleta a branch
 -c = cancela
 
 Caso tenha alguma alteração que não foi comitada, faça o commit para depois enviar as alterações.
@@ -355,6 +355,12 @@ criado 2 for e um if pra imprimir o resultado >:D
 .forEach()
 Caso você precise executar algum código para cada elemento do Array, executar um forEach é muito mais simples do que criar um for ou while, já que não precisamos declarar variáveis de controle.
 
+⟹ Baby steps
 
+⏣ Eu resolvi o problema?
+⏣ Havia outras maneiras de resolver o problema?
+⏣ A maneira que eu escolhi foi a mais eficiente possível?
+⏣ Seria possível inverter ou retirar algum passo?
+⏣ Se eu fosse um computador, conseguiria entender todas as intruções?
 
 
