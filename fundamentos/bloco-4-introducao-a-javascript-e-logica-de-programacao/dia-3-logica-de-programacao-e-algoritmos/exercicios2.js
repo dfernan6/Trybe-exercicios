@@ -1,9 +1,10 @@
-let n = 5;
+let asterisco = "*";
+//let sinal = "*";
 
-for( let contador = 0 ; contador < n ; contador += 1){
-    let res = ""
-         for ( let linha = 0 ; linha < n ; linha += 1)
-         res = res + "*";
-           console.log(res);
+for( let contador = 1 ; contador <= 5 ; contador += 1){
+       asterisco = asterisco + contador;
+       for (let linha = 1 ; linha <= 5 ; contador += 1){
+       asterisco = asterisco + linha;
+         console.log(asterisco);
 }
-
+}
