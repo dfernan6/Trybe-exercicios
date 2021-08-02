@@ -5,4 +5,11 @@ let info = {
     recorrente: 'Sim'
   };
   console.log("Bem vinda " + info["personagem"]);
-  console.log(info)
+  console.log(info);
+  console.log(info["recorrente"]);
+  for ( let value in info){
+      console.log(value);
+  }
+  for ( let value in info){
+      console.log(info[value])
+  }
