@@ -9,3 +9,4 @@
 8 - Exercicios 3.4 finalizados <br>
 9 - Primeiros exericios em JS <br>
 10 - Exercicios 4.2 finalizados <br>
+11 - Exercicios 4.3 finalizados <br>
