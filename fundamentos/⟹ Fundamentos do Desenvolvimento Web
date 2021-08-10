@@ -124,8 +124,8 @@ git commit -m "Mensagem sobre a alteração feita"
 git log = historico das branchs
 q = pra sair do log
 git branch = mostra a lista das brenchs
-git checkout -b nomeUsuario = cria o branch e já acessa o nomeUsuario definido
-git branch -d nomeUsuario = deleta a branch
+git checkout -b nomeDaBranch = cria o branch e já acessa o nomeUsuario definido
+git branch -d nomeDabranch = deleta a branch
 -c = cancela
 
 Caso tenha alguma alteração que não foi comitada, faça o commit para depois enviar as alterações.
@@ -354,6 +354,63 @@ criado 2 for e um if pra imprimir o resultado >:D
 
 .forEach()
 Caso você precise executar algum código para cada elemento do Array, executar um forEach é muito mais simples do que criar um for ou while, já que não precisamos declarar variáveis de controle.
+
+
+
+-----------------------------------------------------------
+4.4 Introdução à JavaScript e Lógica de Programação
+
+Anotações ⟹
+Na criação do objeto colocar let nomeDaObjeto = {nomeDaVar1:,nomeDaVar2:}
+Podem ser adicionados objetos dentro de objetos.
+
+Ex: console.log(Key) = mostra as propriedades do objeto.
+
+⏩ for/in
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let value in food) {
+    console.log(value);
+  };
+  
+⏣ Outpost: 
+0
+1
+2
+
+⏩ for/of
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let value of food) {
+    console.log(value);
+  };
+
+⏣ Outpost:
+hamburguer
+bife
+acarajé
+
+Anotações ⟹
+Deu pra perceber que a unica alteração foi no in e no of e funciona assim somente no array.
+
+let car = {
+  model: 'A3 Sedan',
+  manufacturer: 'Audi',
+  year: 2020
+};
+  for ( let index in car) {
+    console.log( index + " " + car[index]);
+    
+⏣ Outpost:
+model A3 Sedan
+manufacturer Audi
+year 2020
+-----------------------------------------------------------
+5.2 JavaScript: DOM, Eventos e Web Storage
+
+.parentNode = ele apresenta o elemente pai
 
 
 
