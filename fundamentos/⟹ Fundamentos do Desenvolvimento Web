@@ -357,4 +357,55 @@ Caso você precise executar algum código para cada elemento do Array, executar 
 
 
 
+-----------------------------------------------------------
+4.4 Introdução à JavaScript e Lógica de Programação
+
+Anotações ⟹
+Na criação do objeto colocar let nomeDaObjeto = {nomeDaVar1:,nomeDaVar2:}
+Podem ser adicionados objetos dentro de objetos.
+
+Ex: console.log(Key) = mostra as propriedades do objeto.
+
+⏩ for/in
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let value in food) {
+    console.log(value);
+  };
+  
+⏣ Outpost: 
+0
+1
+2
+
+⏩ for/of
+
+let food = ['hamburguer', 'bife', 'acarajé'];
+
+for (let value of food) {
+    console.log(value);
+  };
+
+⏣ Outpost:
+hamburguer
+bife
+acarajé
+
+Anotações ⟹
+Deu pra perceber que a unica alteração foi no in e no of e funciona assim somente no array.
+
+let car = {
+  model: 'A3 Sedan',
+  manufacturer: 'Audi',
+  year: 2020
+};
+  for ( let index in car) {
+    console.log( index + " " + car[index]);
+    
+⏣ Outpost:
+model A3 Sedan
+manufacturer Audi
+year 2020
+
 
