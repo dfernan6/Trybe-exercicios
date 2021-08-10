@@ -124,8 +124,8 @@ git commit -m "Mensagem sobre a alteração feita"
 git log = historico das branchs
 q = pra sair do log
 git branch = mostra a lista das brenchs
-git checkout -b nomeUsuario = cria o branch e já acessa o nomeUsuario definido
-git branch -d nomeUsuario = deleta a branch
+git checkout -b nomeDaBranch = cria o branch e já acessa o nomeUsuario definido
+git branch -d nomeDabranch = deleta a branch
 -c = cancela
 
 Caso tenha alguma alteração que não foi comitada, faça o commit para depois enviar as alterações.
