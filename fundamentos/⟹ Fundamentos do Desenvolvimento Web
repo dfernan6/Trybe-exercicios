@@ -414,4 +414,13 @@ year 2020
 
 
 
+-----------------------------------------------------------
+Dia 5.1 JavaScript: DOM, Eventos e Web Storage
+
+Anotações ⟹
+Geralmente pode ser colocado o <script> no final do <body> pois com o DOM
+você pode acessar tudo que já está criado.
+
+
+
 
