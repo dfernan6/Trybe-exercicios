@@ -57,15 +57,39 @@
      } 
      console.log(alterandoOutroTexto());
 
-     - document.getElementsByTagName()
-        /*
-     Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+     let corDalateral = document.getElementsByTagName("main")[0];
+     function corLateralVerde(){
+         corDalateral.style.background= "green";
+     }
+     console.log(corLateralVerde());
+
+     let corDoFundo = document.getElementsByTagName("section")[0];
+     function fundoBranco(){
+         corDoFundo.style.background= "white";
+     }
+     console.log(fundoBranco());
+
+     let alterandoCabecalho = document.getElementsByTagName("h1")[0];
+     function mudandoCabecalho(){
+         alterandoCabecalho.innerText= "Exericios 5.1 - JavaScript";
+     }
+     console.log(mudandoCabecalho());
+
+     let todosParagrafos1 = document.getElementsByTagName("p")[0];
+     let todosParagrafos2 = document.getElementsByTagName("p")[1];
+     let todosParagrafos3 = document.getElementsByTagName("p")[2];
+     function todasLetrasMaiusculuas(){
+         todosParagrafos1.style.textTransform= "uppercase";
+         todosParagrafos2.style.textTransform= "uppercase";
+         todosParagrafos3.style.textTransform= "uppercase";
+     }
+     console.log(todasLetrasMaiusculuas());
+
+     let listagemDosParagrafos = console.log(document.querySelectorAll("p"));
+     function listagemEscrita(){
+         console.log(listagemDosParagrafos);
+     }
+     console.log(listagemDosParagrafos());
     </script>
 </body>
 
