@@ -421,6 +421,13 @@ mas para alterar um unico elemento da classe, eu tenho q definir o
 elemento da lista com o [].
 Exemplo ⟹ document.getElementsByClassName("nomeDaClasse")[posiçãoNoArray]
 
+Doc ⏩ trybe.js
+Anotações ⟹
+Feito as alterações de Hammilton para Stroll na .classe
+Feito as alterações para que todos .classe de pilotos atuais tornassem Hammilton
+
+
+
 
 
 

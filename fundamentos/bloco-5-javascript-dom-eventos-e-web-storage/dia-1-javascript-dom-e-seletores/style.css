@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cpiloto-f1-atual {
+    border: black;
+    border-style: solid;
+    padding: 50px;
+    width: 100px;
+}
+.lenda {
+    border: black;
+    border-style: solid;
+    padding: 50px;
+    width: 100px;
+}
