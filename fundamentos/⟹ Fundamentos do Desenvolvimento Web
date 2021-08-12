@@ -415,6 +415,12 @@ Anotações ⟹
 Geralmente pode ser colocado o <script> no final do <body> pois com o DOM
 você pode acessar tudo que já está criado.
 
+document.getElementsByClassName("nomeDaClasse") 
+assim como é mostrado acima, temos vários elementos na mesma classe, 
+mas para alterar um unico elemento da classe, eu tenho q definir o
+elemento da lista com o [].
+Exemplo ⟹ document.getElementsByClassName("nomeDaClasse")[posiçãoNoArray]
+
 
 
 
