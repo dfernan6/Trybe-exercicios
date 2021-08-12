@@ -426,6 +426,14 @@ Anotações ⟹
 Feito as alterações de Hammilton para Stroll na .classe
 Feito as alterações para que todos .classe de pilotos atuais tornassem Hammilton
 
+document.getElementsByTagName()
+Serve para pegar os conteudos de tudo que estiver na mesma tag
+
+
+document.getElementsByTagName("span")[0].innerText= "Raul Boesel"
+"Raul Boesel"
+Somente com esse código foi possivel alterar o texto do unico span
+
 
 
 
