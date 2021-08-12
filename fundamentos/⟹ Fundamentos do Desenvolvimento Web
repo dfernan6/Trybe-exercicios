@@ -476,8 +476,15 @@ document.cookie = "email=; expires=Tue, 01 Dec 2020 12:00:00 UTC;"
 ⏩ localStorage
 Salva os dados sem data de expiração . Os dados não serão removidos quando o browser for fechado, ou seja, eles ficarão disponíveis enquanto não forem explicitamente removidos.
 
+localStorage.setItem("name", "Danilo Fernandes")
+localStorage.getItem("name")
+"Danilo Fernandes"
+
+
 ⏩ SessionStorage
-Salva os dados apenas para a sessão atual. Os dados são removidos assim que a pessoa fecha a aba ( tab ) ou o browser 
+Salva os dados apenas para a sessão atual. Os dados são removidos assim que a pessoa fecha a aba ( tab ) ou o browser. Muito bom para habilidades temporárias.
+
+sessionStorage.setItem("darkMode", "true")
 
 
 
