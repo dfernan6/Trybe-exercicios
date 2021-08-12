@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+        main,
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>
+    <main class="main-content">
+        <section class="center-content">
+            <p id="iTextoAlterado">Texto padrão do nosso site</p>
+            <p class="cTexto">-----</p>
+            <p>Trybe</p>
+        </section>
+    </main>
+    <script>
+     let primeiroTexto = document.getElementById("iTextoAlterado");
+     function alterandoPrimeiroTexto(){
+     primeiroTexto.style.color = "blue";     
+     }
+     console.log(alterandoPrimeiroTexto());
+        
+     let outroTexto = document.getElementsByClassName("cTexto")[0];
+     function alterandoOutroTexto(){
+     outroTexto.innerText="Eu me vejo programando";
+     } 
+     console.log(alterandoOutroTexto());
+
+     let corDalateral = document.getElementsByTagName("main")[0];
+     function corLateralVerde(){
+         corDalateral.style.background= "green";
+     }
+     console.log(corLateralVerde());
+
+     let corDoFundo = document.getElementsByTagName("section")[0];
+     function fundoBranco(){
+         corDoFundo.style.background= "white";
+     }
+     console.log(fundoBranco());
+
+     let alterandoCabecalho = document.getElementsByTagName("h1")[0];
+     function mudandoCabecalho(){
+         alterandoCabecalho.innerText= "Exericios 5.1 - JavaScript";
+     }
+     console.log(mudandoCabecalho());
+
+     let todosParagrafos1 = document.getElementsByTagName("p")[0];
+     let todosParagrafos2 = document.getElementsByTagName("p")[1];
+     let todosParagrafos3 = document.getElementsByTagName("p")[2];
+     function todasLetrasMaiusculuas(){
+         todosParagrafos1.style.textTransform= "uppercase";
+         todosParagrafos2.style.textTransform= "uppercase";
+         todosParagrafos3.style.textTransform= "uppercase";
+     }
+     console.log(todasLetrasMaiusculuas());
+
+     let listagemDosParagrafos = console.log(document.querySelectorAll("p"));
+     function listagemEscrita(){
+         console.log(listagemDosParagrafos);
+     }
+     console.log(listagemDosParagrafos());
+    </script>
+</body>
+
+</html>

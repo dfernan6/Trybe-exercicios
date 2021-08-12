@@ -421,6 +421,36 @@ Anotações ⟹
 Geralmente pode ser colocado o <script> no final do <body> pois com o DOM
 você pode acessar tudo que já está criado.
 
+document.getElementsByClassName("nomeDaClasse") 
+assim como é mostrado acima, temos vários elementos na mesma classe, 
+mas para alterar um unico elemento da classe, eu tenho q definir o
+elemento da lista com o [].
+Exemplo ⟹ document.getElementsByClassName("nomeDaClasse")[posiçãoNoArray]
+
+Doc ⏩ trybe.js
+Anotações ⟹
+Feito as alterações de Hammilton para Stroll na .classe
+Feito as alterações para que todos .classe de pilotos atuais tornassem Hammilton
+
+document.getElementsByTagName()
+Serve para pegar os conteudos de tudo que estiver na mesma tag
+
+
+document.getElementsByTagName("span")[0].innerText= "Raul Boesel"
+"Raul Boesel"
+Somente com esse código foi possivel alterar o texto do unico span
+
+document.querySelector(".cpilotos-sem-titulo .cpiloto-f1-atual").style.border= "grey";
+Feito atualizações com a seleção das duas classes do elemento.
+
+Tanto o querySelector quanto o querySelectorAll acessam CSS Selectors de todos os tipos. Ou seja, eles podem acessar muito além de valores de ids e classes. 
+
+querySelectorAll tbm recebe um selectorCSS
+
+document.querySelectorAll(".cpilotos-sem-titulo .cpiloto-f1-atual")
+fez a seleção da listagem
+
+
 
 
 
