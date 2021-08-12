@@ -407,12 +407,6 @@ let car = {
 model A3 Sedan
 manufacturer Audi
 year 2020
------------------------------------------------------------
-5.2 JavaScript: DOM, Eventos e Web Storage
-
-.parentNode = ele apresenta o elemente pai
-
-
 
 -----------------------------------------------------------
 Dia 5.1 JavaScript: DOM, Eventos e Web Storage
@@ -449,8 +443,41 @@ querySelectorAll tbm recebe um selectorCSS
 
 document.querySelectorAll(".cpilotos-sem-titulo .cpiloto-f1-atual")
 fez a seleção da listagem
+-----------------------------------------------------------
+Dia 5.2 JavaScript: DOM, Eventos e Web Storage
+
+.parentNode = ele apresenta o elemente pai
+
+-----------------------------------------------------------
+Dia 5.3 JavaScript: DOM, Eventos e Web Storage
+
+-----------------------------------------------------------
+Dia 5.4 JavaScript: DOM, Eventos e Web Storage
 
 
+⏣ Dinamica montada em grupo pirâmide ⏣
+
+ Já realizada e compreendida pela equipe
+ 
+ ⏩ Cookies
+ Realizado no console do browser
+ 
+ document.cookie = "email=isabella@email.com";
+ document.cookie = "email=isabella@email.com; expires=Thu, 17 Dec 2020 12:00:00 UTC";
+ document.cookie = "email=isabella@email.com; expires=Thu, 17 Dec 2020 12:00:00 UTC";
+document.cookie = "email=isabella@email.com; expires=Thu, 17 Dec 2020 12:00:00 UTC; path=/";
+const myCookie = document.cookie;
+console.log(myCookie) // email=isabella@email.com
+document.cookie = "email=cleyton@email.com; expires=Thu, 17 Dec 2020 12:00:00 UTC";
+
+Para eliminar o cookie posso definir na data de validade.
+document.cookie = "email=; expires=Tue, 01 Dec 2020 12:00:00 UTC;"
+
+⏩ localStorage
+Salva os dados sem data de expiração . Os dados não serão removidos quando o browser for fechado, ou seja, eles ficarão disponíveis enquanto não forem explicitamente removidos.
+
+⏩ SessionStorage
+Salva os dados apenas para a sessão atual. Os dados são removidos assim que a pessoa fecha a aba ( tab ) ou o browser 
 
 
 
