@@ -8,13 +8,25 @@ let ingredientItems = [
     "1 colher de sopa de sal com alho"
 ];
 
-let ingredientList = document.querySelector(".ingredients-list");
+let ingredientList = document.querySelector(".cIngredientsList");
 
 for (let index = 0; index < ingredientItems.length; index += 1){
     let ingredient = ingredientItems[index];
 
     let ingredientListItem = document.createElement("li");
-    ingredientListItem.innerHTML = ingredient;
+    ingredientListItem.innerText = ingredient;
+    ingredientListItem.className = "iIngredientsListItem";
 
-    ingredientList.appendChild(ingredientList);
+    ingredientList.appendChild(ingredientListItem);
+
+}
+
+let ingredientListItems = document.querySelectorAll(".iIngredientsListItem");
+
+for (let index = 0; index < ingredientListItems.length; index++){
+    let element =  ingredientListItems[index];
+
+if ( element.innerText.includes("toucinho")){
+ ingredientList.removeChild(element);
+} 
 }
