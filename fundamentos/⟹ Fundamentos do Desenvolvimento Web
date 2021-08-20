@@ -490,4 +490,10 @@ sessionStorage.setItem("darkMode", "true")
 -----------------------------------------------------------
 Dia 6.1 HTML e CSS: Forms, Flexbox e Responsivo
 
+method= GET= enviado através da URL | POST= forma mais estruturada e segura
+required= campo obrigatorio
+preventDefault() = ele ajuda a previnir o dados inseridos no submit 
+
+-----------------------------------------------------------
+Dia 6.2 HTML e CSS: Forms, Flexbox e Responsivo
 
