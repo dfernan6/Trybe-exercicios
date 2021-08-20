@@ -487,6 +487,7 @@ localStorage.getItem("name")
 Salva os dados apenas para a sessão atual. Os dados são removidos assim que a pessoa fecha a aba ( tab ) ou o browser. Muito bom para habilidades temporárias.
 
 sessionStorage.setItem("darkMode", "true")
-
+-----------------------------------------------------------
+Dia 6.1 HTML e CSS: Forms, Flexbox e Responsivo
 
 
