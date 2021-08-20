@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap-5.1.0-dist/js/bootstrap.esm.min.js"></script>
+</head>
+<body>
+    <form method="post" id="fContato" action="mailto: danilo.afernandes@outlook.com"
+    oninput="calc_total();">
+   <fieldset id="usuario">
+       <legend>Identificação do Usuário</legend>
+       <p><label for="nnome">Nome:</label>&nbsp;&nbsp;<input type="text"
+            name="nnome" id="inome" size="30" maxlength="35" placeholder="Nome Completo"></p>
+       <p><label for="nsenha">Senha:</label>&nbsp;&nbsp;<input type="password"
+            name="nsenha" id="isenha" size="12" maxlength="12" placeholder="12 Dígitos"></p>
+       <p><label for="nmail">E-mail:</label>&nbsp;&nbsp;<input type="email" 
+           name="nmail" id="imail" size="30" maxlength="30" placeholder="Digite seu e-mail"></p>
+      <fieldset id="sexo"> <legend>Sexo:</legend>
+       <input type="radio" name="sexo" id="imasc" checked><label for="imasc">
+            Masculino </label><br>
+       <input type="radio" name="sexo" id="ifem"><label for="ifem"> Feminino </label>
+       </fieldset>
+           <p>Data de Nascimento:&nbsp;&nbsp;<input type="date" name="nNasc" id="iNasc"></p>
+       </fieldset>
+       <fieldset id="endereco">
+           <legend>Endereço do Usuário</legend>
+           <p><label for="nLog">Logradouro:</label>&nbsp;&nbsp;<input type="text" 
+               name="nLog" id="iLog" min="20" maxlength="80"
+                placeholder="Rua, Avenida, Etc..."></p>
+               <p><label for="nNumer">Número:</label>&nbsp;&nbsp;<input type="number" 
+                   name="nNumer" id="iNumer" min="0" max="999999" placeholder="nº"></p>
+                   <p><label for="nEstado">Estado:</label>&nbsp;&nbsp;
+                       <select name="nEstado" id="iEstado">
+                       <optgroup label="Regiao Sudeste">
+                       <option value="rj">RJ</option>
+                       <option value="sp" selected>SP</option>
+                       <option value="mg">MG</option>
+                       <option value="es">ES</option>
+                   </optgroup>
+                   <optgroup label="Regiao Sul">
+                       <option value="rs">RS</option>
+                       <option value="pr">PR</option>
+                       <option value="sc">SC</option>
+                   </optgroup>
+               </select>
+                   </p>
+                       <p><label for="nCidade">Cidade:</label>&nbsp;&nbsp;
+                           <input type="text" name="nCidade" id="iCidade" 
+                           maxlength="30" placeholder="Sua cidade" list="cidades"></p>
+                           <datalist id="cidades">
+                               <option value="Rio de Janeiro"></option>
+                               <option value="Belo Horizonte"></option>
+                               <option value="Curitiba"></option>
+                               <option value="São Paulo"></option>
+                               <option value="Rio Grande do Sul"></option>
+                               <option value="Florianopolis"></option>
+                               <option value="Vitória"></option>
+                               <option value="Campinas"></option>
+                               <option value="Uberada"></option>
+                           </datalist>
+   </fieldset>
+       <fieldset id="mensagem">
+           <legend>Mensagem do Usuário</legend>
+           <p><label for="nUrg">Grau de Urgência:</label>
+           Min.<input type="range" name="nUrg" id="iUrg" min="0" max="10" step="2">Max.</p>
+               <p><label for="nMsg">Mensagem:</label>
+               <textarea name="nMag" id="iMSG" cols="25" rows="5"
+                placeholder="Deixe sua mensagem aqui"></textarea></p>
+   </fieldset>
+       <fieldset id="pedido">
+           <legend>Quero um produto desse</legend>
+           <p><input type="checkbox" name="nPed" id="iPed" checked>
+               <label for="nPed">Gostaria de adquirir um produto quando disponível</label></p>
+               <p><label for="nCor">Cor:</label>
+               <input type="color" name="nCor" id="iCor" value="#0000FF"></p>
+                   <p><label for="nQtd">Quantidade:</label>
+                   <input type="number" name="nQtd" id="iQtd" min="1" max="999" value="1"></p>
+                       <p><label for="nTot">Preço Total:</label></p> <p>R$
+                       <input type="number" name="nTot" id="iTot" placeholder="Total a pagar"
+                   readonly></p>
+   </fieldset>
+   <button type="submit" class="btn btn-success">Enviar</button>
+   </form>
+</body>
+</html>
