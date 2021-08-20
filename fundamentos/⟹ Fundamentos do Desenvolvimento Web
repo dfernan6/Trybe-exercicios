@@ -487,6 +487,13 @@ localStorage.getItem("name")
 Salva os dados apenas para a sessão atual. Os dados são removidos assim que a pessoa fecha a aba ( tab ) ou o browser. Muito bom para habilidades temporárias.
 
 sessionStorage.setItem("darkMode", "true")
+-----------------------------------------------------------
+Dia 6.1 HTML e CSS: Forms, Flexbox e Responsivo
 
+method= GET= enviado através da URL | POST= forma mais estruturada e segura
+required= campo obrigatorio
+preventDefault() = ele ajuda a previnir o dados inseridos no submit 
 
+-----------------------------------------------------------
+Dia 6.2 HTML e CSS: Forms, Flexbox e Responsivo
 
