@@ -502,10 +502,13 @@ Dia 6.3 HTML e CSS: Forms, Flexbox e Responsivo
 
 ⏩ CSS
 Quando o elemento é definido como display: flex;
+
 flex-direction: define o estilo da flex
 flex-wrap: quebra o conteudo dentro do limite, ex: <div>
 flex-flow: é uma junçaõ de flex-direction com o flex-wrap.
-
+align-items: alinha os flex items de acordo com o eixo transversal (cross-axis).
+align-content: alinha as linhas do container em relação ao eixo transversal (cross-axis.
+justify-content: alinha os flex items no container de acordo com a direção.
 
 
 
