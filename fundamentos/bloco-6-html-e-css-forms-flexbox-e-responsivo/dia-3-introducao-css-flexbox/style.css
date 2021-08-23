@@ -23,25 +23,46 @@ body {
 
 .pixel-line {
     height: 40px;
-    width: 210px;
+    width: 460px;
   }
 
 footer {
     margin-top: 20px;
 }
 button {
+    width: 420px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: 74px;
     margin-bottom: 10px;
 }
 .colors-ul {
  border-radius: 15px;
 }
 aside {
- width: 210px;
- margin-top: -170px;
+    width: 420px;
+    height: 400px;
+    margin-top: -470px;
+    margin-left: 45px;
+    padding: 30px;
 }
 img#iMario {
-    width: 500px;
+    width: 420px;
+    padding: 68px;
 }
+
 section#iSectionFoto {
     margin-left: 500px;
+    margin-top: -131px;
+    padding: 10px;
+}
+div#iInterface {
+        display: inline-block;
+        border-radius: 25px;
+        border-style: solid;
+}
+section#color-palette{
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
