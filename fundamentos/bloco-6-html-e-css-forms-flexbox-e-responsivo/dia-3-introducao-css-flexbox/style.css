@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-color: rgb(255,255,255);
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -22,8 +22,8 @@ body {
 }
 
 .pixel-line {
-    max-height: 40px;
-    width: 100%;
+    height: 40px;
+    width: 210px;
   }
 
 footer {
@@ -34,4 +34,14 @@ button {
 }
 .colors-ul {
  border-radius: 15px;
+}
+aside {
+ width: 210px;
+ margin-top: -170px;
+}
+img#iMario {
+    width: 500px;
+}
+section#iSectionFoto {
+    margin-left: 500px;
 }
