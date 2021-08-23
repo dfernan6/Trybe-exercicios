@@ -1,4 +1,16 @@
-let palleteColors = ["rgb(0, 0, 0)", "rgb(255, 0, 0)", "rgb(0, 255, 0)", "rgb(0, 0, 255)"];
+let palleteColors = [
+    "rgb(0, 0, 0)",
+    "rgb(255, 0, 0)",
+    "rgb(0, 255, 0)",
+    "rgb(0, 0, 255)",
+    "rgb(255,0,255)",
+    "rgb(255,255,0)",
+    "rgb(255,165,0)",
+    "rgb(75,0,130)",
+    "rgb(139,69,19)",
+    "rgb(0,100,0)",
+    "rgb(119,136,153)"
+]
 let colorsUl = document.querySelector(".colors-ul");
 let pixelBoard = document.getElementById("pixel-board");
 let button = document.getElementById("clear-board")
@@ -57,4 +69,4 @@ function creatPixelsBoard(width, heigth){
   })
 
   addClassAndBackgroundToColors(palleteColors)
-  creatPixelsBoard(5, 5)
+  creatPixelsBoard(10, 10)
