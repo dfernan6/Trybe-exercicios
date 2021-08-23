@@ -407,6 +407,20 @@ let car = {
 model A3 Sedan
 manufacturer Audi
 year 2020
+-----------------------------------------------------------
+5.4 Flexbox
+
+⏩ CSS
+
+⏣ Anotações
+Sempre colocar display:flex no container onde irão os items
+E em cada item que irá no container fazer o align-self: para organizá-los de
+maneiras estilosas.
+E justify-content: altera a ordem das caracteristicas do item ⟰
+
+
+
+
 
 -----------------------------------------------------------
 Dia 5.1 JavaScript: DOM, Eventos e Web Storage
