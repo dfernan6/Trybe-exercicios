@@ -1,9 +1,20 @@
 @charset "UTF-8";
 body {
-    background-color: white;
+    background-image: url(pokemon-art-academy-mario-paint.original.jpg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 7px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 
+}
 .color {
     display: inline-block;
     margin-left: 10px;
@@ -36,6 +47,21 @@ button {
     margin-top: -5px;
     margin-left: 74px;
     margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    width: 420px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: 74px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
 }
 .colors-ul {
  border-radius: 15px;
@@ -50,19 +76,41 @@ aside {
 img#iMario {
     width: 420px;
     padding: 68px;
+    opacity: 0.6;
+    margin-top: 0px;
 }
 
 section#iSectionFoto {
     margin-left: 500px;
-    margin-top: -131px;
+    margin-top: -47px;
     padding: 10px;
+    height: 421px;
 }
 div#iInterface {
-        display: inline-block;
-        border-radius: 25px;
-        border-style: solid;
+    display: flexbox;
+    justify-content:right;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 10px black;
+        
 }
 section#color-palette{
     margin-top: 10px;
     margin-bottom: 50px;
+}
+div#iDivHeader{
+    display: flexbox;
+    justify-content:right;
+    border-radius: 25px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 10px black;
+    height: 50px;
+    margin-bottom: 25px;
+}
+span {
+    margin-left: 180px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: rgb(255, 255, 255);
 }
