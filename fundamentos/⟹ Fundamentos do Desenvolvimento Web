@@ -432,5 +432,20 @@ se a variavel foi criada dentro do escopo, ela não poderá ser
 pois é uma variavel constante, mas pode alterar o valor de uma propriedade
  dentro de um objeto.
 
+⏣ template literals
 
+template literals é mais uma feature do ES6 que nos permite criar strings complexas de forma mais fácil. Você certamente já concatenou strings e variáveis em Javascript da seguinte forma:
 
+⟹ Exemplos
+
+ const myName = "Isabella"
+ console.log(`Welcome ${myName}!`);
+
+ // Com o template literals
+console.log(`Primeira linha;
+Segunda linha;
+Terceira linha;`
+)
+
+// Sem o template literals:
+console.log('Primeira linha;\n' + 'Segunda linha;\n' + 'Terceira linha;\n')
