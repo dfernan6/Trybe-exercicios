@@ -408,4 +408,29 @@ model A3 Sedan
 manufacturer Audi
 year 2020
 
+-----------------------------------------------------------
+7.1 Introdução à JavaScript ES6 e Testes Unitários
+
+⏩ JavaScript
+
+Anotações ⟹
+
+⏣ var
+
+a var fora da função não é considerada no escopo.
+e também ela pode vazar o escopo
+
+
+⏣ let
+
+se a variavel foi criada dentro do escopo, ela não poderá ser
+ utilizada fora do escopo.
+
+⏣ const
+
+é uma variavel que é imutável, não conseguimos alterar seus valores,
+pois é uma variavel constante, mas pode alterar o valor de uma propriedade
+ dentro de um objeto.
+
+
 
