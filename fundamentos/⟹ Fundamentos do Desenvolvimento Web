@@ -407,22 +407,6 @@ let car = {
 model A3 Sedan
 manufacturer Audi
 year 2020
------------------------------------------------------------
-7.2 Introdução à JavaScript ES6 e Testes Unitários
-
-⏩ Javascript
-
-⟹ Anotações
-
-⏣ Adicionar chaves
-
-objeto.nomeDaPropriedade .
-objeto[variavelQueContemONomeDaPropriedade] .
-
-⏣ Object.keys
-
-Esse método retorna um array de propriedades enumeraveis de um determinado objeto, na mesma ordem em que é fornecida por um laço for...in (a diferença é que um laço for-in  enumera propriedades que estejam na cadeia de protótipos).
-
 
 
 
