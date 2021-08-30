@@ -45,4 +45,20 @@ const coolestTvShow = {
 
   //Parte IV - Object.entries
 
-  
+  console.table(Object.entries(coolestTvShow));//const coolestTvShow acima
+
+  const países = {
+    França: 'Paris',
+    Brasil: 'Brasília',
+    Espanha: 'Madrid',
+    Portugal: 'Lisboa',
+  };
+  const pairKeyValue = Object.entries(países);
+  console.log(pairKeyValue);
+  //Para ver os valores separadamente, 
+  // adicionei o for abaixo ao código anterior
+  for(index in pairKeyValue) {
+    console.log('--------');
+    console.log('País:', pairKeyValue[index][0]);
+    console.log('Capital:', pairKeyValue[index][1]);
+  };
