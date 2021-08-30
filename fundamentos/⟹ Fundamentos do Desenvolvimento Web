@@ -529,4 +529,65 @@ justify-content: alinha os flex items no container de acordo com a direção.
 
 
 
+-----------------------------------------------------------
+7.1 Introdução à JavaScript ES6 e Testes Unitários
+
+⏩ JavaScript
+
+Anotações ⟹
+
+⏣ var
+
+a var fora da função não é considerada no escopo.
+e também ela pode vazar o escopo
+
+
+⏣ let
+
+se a variavel foi criada dentro do escopo, ela não poderá ser
+ utilizada fora do escopo.
+
+⏣ const
+
+é uma variavel que é imutável, não conseguimos alterar seus valores,
+pois é uma variavel constante, mas pode alterar o valor de uma propriedade
+ dentro de um objeto.
+
+⏣ template literals
+
+template literals é mais uma feature do ES6 que nos permite criar strings complexas de forma mais fácil. Você certamente já concatenou strings e variáveis em Javascript da seguinte forma:
+
+⟹ Exemplos
+
+ const myName = "Isabella"
+ console.log(`Welcome ${myName}!`);
+
+ // Com o template literals
+console.log(`Primeira linha;
+Segunda linha;
+Terceira linha;`
+)
+
+// Sem o template literals:
+console.log('Primeira linha;\n' + 'Segunda linha;\n' + 'Terceira linha;\n')
+
+⏣ ternary operator
+
+// A sintaxe básica do operador ternário é muito simples:
+`expressão verdadeira ou falsa` ? `retorno se verdadeira` : `retorno se falsa`;
+
+⏣ arrow functions
+
+Nada mais é do que uma forma diferente de se declarar funções escrevendo menos código. Veja abaixo como ficaria a função printName utilizando a sintaxe da arrow function :
+
+⟹ Exemplos
+
+const printName = () => {
+  const myName = "Lucas";
+  return myName;
+}
+console.log(printName());
+
+
+
 
