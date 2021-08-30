@@ -414,14 +414,14 @@ year 2020
 
 ⟹ Anotações
 
-Metodos para adicionar chavess
+⏣ Adicionar chaves
 
 objeto.nomeDaPropriedade .
 objeto[variavelQueContemONomeDaPropriedade] .
 
+⏣ Object.keys
 
-
-
+Esse método retorna um array de propriedades enumeraveis de um determinado objeto, na mesma ordem em que é fornecida por um laço for...in (a diferença é que um laço for-in  enumera propriedades que estejam na cadeia de protótipos).
 
 
 
