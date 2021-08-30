@@ -449,3 +449,24 @@ Terceira linha;`
 
 // Sem o template literals:
 console.log('Primeira linha;\n' + 'Segunda linha;\n' + 'Terceira linha;\n')
+
+⏣ ternary operator
+
+// A sintaxe básica do operador ternário é muito simples:
+`expressão verdadeira ou falsa` ? `retorno se verdadeira` : `retorno se falsa`;
+
+⏣ arrow functions
+
+Nada mais é do que uma forma diferente de se declarar funções escrevendo menos código. Veja abaixo como ficaria a função printName utilizando a sintaxe da arrow function :
+
+⟹ Exemplos
+
+const printName = () => {
+  const myName = "Lucas";
+  return myName;
+}
+console.log(printName());
+
+
+
+
