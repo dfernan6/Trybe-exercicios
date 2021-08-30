@@ -42,3 +42,7 @@ const coolestTvShow = {
   console.log(listSkillsValuesWithValues(student));
   // Observe como a função listSkillsValuesWithValues 
   //é bem mais simples e resolve o problema da listagem de valores de forma mais direta.
+
+  //Parte IV - Object.entries
+
+  
