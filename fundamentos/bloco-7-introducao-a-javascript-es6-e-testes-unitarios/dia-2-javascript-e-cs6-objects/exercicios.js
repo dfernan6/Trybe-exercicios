@@ -44,12 +44,13 @@ const order = {
   AP: ${Object.values(order)[2].apartment}.`
   }
   console.log(customerInfo(order))
-
-  customerInfo(order);
   
   const orderModifier = (order) => {
     // Adicione abaixo as informações necessárias.
-  
+    Object.values(order)[3].delivery.deliveryPerson = "Luiz Silva";
+    Object.values(order)[4].total = "50";
+    return `Olá ${Object.values(order)[3].delivery.deliveryPerson},
+    o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero
+    é de ${Object.values(order)[4].total}. `
   }
-  
-  orderModifier(order);
+  console.log(orderModifier(order));
