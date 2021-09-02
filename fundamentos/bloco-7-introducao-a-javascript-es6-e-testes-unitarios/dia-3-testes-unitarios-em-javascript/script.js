@@ -10,3 +10,4 @@ assert.ok(expected === 3, 'Um mais dois é igual a três'); // Checa se o primei
 assert.strictEqual(expected, 3, 'Um mais dois é igual a três'); // Checa se o primeiro e segundo argumentos são iguais em valor e tipo (===)
 assert.equal(expected, '3', 'Um mais dois é igual a três'); // não faz check se esse valor é string
 assert.notStrictEqual(expected, 4, 'Um mais dois é igual a três (e não quatro!)'); // Checa se o primeiro e segundo argumentos são diferentes (!==)
+
