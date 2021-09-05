@@ -10,14 +10,11 @@ function sum(a, b) {
 
   return a + b;
 }
-const expected = sum(0, 0)
+const expected = sum(1, 2)
 
 // implemente seus testes aqui
-assert.ok(expected === 0, 'Um mais dois é igual a três'); // Checa se o primeiro argumento é verdadeiro
-assert.strictEqual(expected, 0, 'Um mais dois é igual a três'); // Checa se o primeiro e segundo argumentos são iguais em valor e tipo (===)
-assert.equal(expected, '0', 'Um mais dois é igual a três'); // não faz check se esse valor é string
+assert.ok(expected === 3, 'Um mais dois é igual a três'); // Checa se o primeiro argumento é verdadeiro
+assert.strictEqual(expected, 3, 'Um mais dois é igual a três'); // Checa se o primeiro e segundo argumentos são iguais em valor e tipo (===)
+assert.equal(expected, '3', 'Um mais dois é igual a três'); // não faz check se esse valor é string
 assert.notStrictEqual(expected, 4, 'Um mais dois é igual a três (e não quatro!)'); // Checa se o primeiro e segundo argumentos são diferentes (!==)
-assert.throws(() => { sum(0, "0"); }), /parameters must be numbers/ // OK
-
-// ex2: A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item caso ele exista no array
-
+assert.throws(() => { sum(1, "2"); }), /parameters must be numbers/ // OK
