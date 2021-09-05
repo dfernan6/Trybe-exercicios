@@ -1,4 +1,5 @@
 const assert = require('assert');
+const  { throws } = require('assert/strict');
 
 function division(x, y) {
   if (y === 0) throw new Error('parameter y must not be 0');
@@ -6,4 +7,4 @@ function division(x, y) {
 }
 
 assert.strictEqual(division(10, 2), 5); // OK
-assert.throws(() => { division(10, 0); }, /^Error: parameter y must not be 0$/); // OK
+assert.throws(() => { division(10, 0); }, /Error: parameter y must not be 0$/); // OK
