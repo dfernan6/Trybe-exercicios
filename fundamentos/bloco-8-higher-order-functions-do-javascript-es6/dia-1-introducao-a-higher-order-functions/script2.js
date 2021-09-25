@@ -16,5 +16,5 @@ const repeat = (number, action) => {
     }
   };
   
-  repeat(3, isEven); // Testa quais números serão pares;
-  repeat(3, isOdd); // Testa quais números serão ímpares;
+  repeat(6, isEven); // Testa quais números serão pares;
+  repeat(6, isOdd); // Testa quais números serão ímpares;
