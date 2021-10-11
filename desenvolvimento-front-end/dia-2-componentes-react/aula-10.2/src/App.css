@@ -52,3 +52,7 @@ h1 {
 p {
   color: bisque;
 }
+
+img {
+  border-radius: 10px;
+}
