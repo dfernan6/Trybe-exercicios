@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(84, 84, 88);
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  color: bisque;
+}
+
+p {
+  color: bisque;
+}
+
+img {
+  border-radius: 10px;
+}
