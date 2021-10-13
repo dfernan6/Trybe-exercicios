@@ -2,22 +2,44 @@ import React from 'react';
 import './App.css';
 
 class App extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      numeroDeCliquesBl: 0,
+      numeroDeCliquesBr: 0,
+      numeroDeCliquesGi: 0,
+    }
+    this.Blonde = this.Blonde.bind(this)
+    this.Brunet = this.Brunet.bind(this)
+    this.Ginger = this.Ginger.bind(this)
+  }
+
   Blonde() {
-    console.log('Loira!')
+    console.log('Loira!');
+    this.setState((estadoAnterior, _props) => ({
+      numeroDeCliquesBl: estadoAnterior.numeroDeCliquesBl + 1
+    }))
   }
   
   Brunet() {
     console.log('Morena!')
-  }
+    this.setState((estadoAnterior, _props) => ({
+        numeroDeCliquesBr: estadoAnterior.numeroDeCliquesBr + 1
+      }))
+    }
   
   Ginger() {
     console.log('Ruiva!')
+    this.setState((estadoAnterior, _props) => ({
+      numeroDeCliquesGi: estadoAnterior.numeroDeCliquesGi + 1
+    }))
   }
+
   render() {
     return <div>
-    <button onClick={this.Blonde}>Loira</button>
-    <button onClick={this.Brunet}>Morena</button>
-    <button onClick={this.Ginger}>Ruiva</button>
+    <button onClick={this.Blonde}>Loira {this.state.numeroDeCliquesBl}</button>
+    <button onClick={this.Brunet}>Morena {this.state.numeroDeCliquesBr}</button>
+    <button onClick={this.Ginger}>Ruiva {this.state.numeroDeCliquesGi}</button>
     </div>
   }
 }
