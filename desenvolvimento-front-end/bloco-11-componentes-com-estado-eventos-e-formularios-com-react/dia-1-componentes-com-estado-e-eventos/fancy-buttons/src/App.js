@@ -1,28 +1,23 @@
 import React from 'react';
 import './App.css';
 
-
-function Blonde() {
-  console.log('Loira!')
-}
-
-function Brunet() {
-  console.log('Morena!')
-}
-
-function Ginger() {
-  console.log('Ruiva!')
-}
-
 class App extends React.Component {
-  /* Repare que, diferentemente do HTML, no
-  JSX você associa uma função a um evento
-  passando a própria função entre chaves `{}` */
+  Blonde() {
+    console.log('Loira!')
+  }
+  
+  Brunet() {
+    console.log('Morena!')
+  }
+  
+  Ginger() {
+    console.log('Ruiva!')
+  }
   render() {
     return <div>
-    <button onClick={Blonde}>Loira</button>
-    <button onClick={Brunet}>Morena</button>
-    <button onClick={Ginger}>Ruiva</button>
+    <button onClick={this.Blonde}>Loira</button>
+    <button onClick={this.Brunet}>Morena</button>
+    <button onClick={this.Ginger}>Ruiva</button>
     </div>
   }
 }
