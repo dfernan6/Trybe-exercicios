@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Form from './Form';
 
 class App extends React.Component {
   constructor(){
@@ -40,6 +41,7 @@ class App extends React.Component {
     <button onClick={this.Blonde}>Loira {this.state.numeroDeCliquesBl}</button>
     <button onClick={this.Brunet}>Morena {this.state.numeroDeCliquesBr}</button>
     <button onClick={this.Ginger}>Ruiva {this.state.numeroDeCliquesGi}</button>
+    < Form />
     </div>
   }
 }
