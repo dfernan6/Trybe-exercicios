@@ -30,23 +30,14 @@ class Form extends Component {
         <form className="form">
           <label>
             Diga qual o seu Estado favorito?
-              <textarea name="estadoFavorito" value={this.state.estadoFavorito} onChange={this.handleChange} />
+              <textarea name="estadoFavorito" id="iEstado" value={this.state.estadoFavorito} onChange={this.handleChange} />
           </label>
           <br />
           <label>
             Qual a sua cidade?
-              <textarea name="suaCidade" value={this.state.suaCidade } onChange={this.handleChange} />
+              <textarea name="suaCidade" id="iCidade" value={this.state.suaCidade } onChange={this.handleChange} />
           </label>
           <br />
-          <input
-            type="number"
-            name="idade"
-          />
-          <br />
-          <input
-            type="checkbox"
-            name="vaiComparecer"
-          />
         </form>
       </div>
     );

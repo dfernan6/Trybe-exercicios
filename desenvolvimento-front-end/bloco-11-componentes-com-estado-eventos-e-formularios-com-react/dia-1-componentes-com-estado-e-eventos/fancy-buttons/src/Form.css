@@ -1,4 +1,16 @@
 div {
-    background-color: aquamarine;
-    text-align: center;
+    background-color: rgb(69, 73, 72);
+    text-align: left;
+}
+
+#iEstado {
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+}
+
+#iCidade {
+    margin-left: 128px;
+    width: 100px;
+    height: 20px;
 }

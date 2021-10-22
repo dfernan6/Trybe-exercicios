@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+  padding: 10px;
+}
+
+h1 {
+  color:rgb(69, 73, 72);
+  background-color: black;
+  height: 50px;
+  margin-left: 10px;
+}
+
+#iEnviar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.cButtons {
+  margin-left: 10px;
+  width: 100px;
+}

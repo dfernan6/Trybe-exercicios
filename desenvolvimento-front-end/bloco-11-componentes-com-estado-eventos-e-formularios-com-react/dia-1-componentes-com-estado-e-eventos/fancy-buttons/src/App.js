@@ -13,6 +13,7 @@ class App extends React.Component {
     this.Blonde = this.Blonde.bind(this)
     this.Brunet = this.Brunet.bind(this)
     this.Ginger = this.Ginger.bind(this)
+    this.Confirm = this.Confirm.bind(this)
   }
 
   Blonde() {
@@ -36,12 +37,18 @@ class App extends React.Component {
     }))
   }
 
+  Confirm() {
+    console.log(" Cadastro concluído!");
+  }
+
   render() {
     return <div>
-    <button onClick={this.Blonde}>Loira {this.state.numeroDeCliquesBl}</button>
-    <button onClick={this.Brunet}>Morena {this.state.numeroDeCliquesBr}</button>
-    <button onClick={this.Ginger}>Ruiva {this.state.numeroDeCliquesGi}</button>
+    <h1> Faça seu cadastro </h1>
+    <button class="cButtons" onClick={this.Blonde}>Loira {this.state.numeroDeCliquesBl}</button>
+    <button class="cButtons" onClick={this.Brunet}>Morena {this.state.numeroDeCliquesBr}</button>
+    <button class="cButtons" onClick={this.Ginger}>Ruiva {this.state.numeroDeCliquesGi}</button>
     < Form />
+    <button onClick={ this.Confirm } id="iEnviar" type="submit">Enviar</button>
     </div>
   }
 }
