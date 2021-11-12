@@ -1,8 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 class Image extends React.Component {
   render() {
-    return <p>Cute cat staring</p>;
+    return (
+      <img src="./paneconha.jpg" alt="Paneconha"/>
+    )
   }
 }
 
