@@ -11,7 +11,7 @@ class Training extends React.Component {
 ];
     return (
     <section>
-    <p>{ arrayObj.name }</p>
+    <p>{ arrayObj[1] }</p>
     </section>
     )
   }

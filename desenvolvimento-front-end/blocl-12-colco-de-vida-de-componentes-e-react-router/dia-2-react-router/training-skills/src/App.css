@@ -3,3 +3,14 @@ h1 {
   background-color: aquamarine;
 }
 
+.color-display{
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
