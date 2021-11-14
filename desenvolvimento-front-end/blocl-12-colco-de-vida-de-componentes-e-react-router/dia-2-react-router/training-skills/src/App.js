@@ -7,7 +7,22 @@ import Training from './componentes/Training';
 import colors from './componentes/Colors';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      filterInput:'',
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+    handleChange(event) {
+    
+    this.setState({ filterInput: event.target.value });
+  }
+
   render (){
+    const { filterInput } = this.state;
     return (
     <main>
     <div>
@@ -26,6 +41,11 @@ class App extends React.Component {
     <Training />
     <Image />
     </div>
+    < input
+      onChange={ this.handleChange }
+      value={ filterInput } 
+      type="text" 
+      />
     <ul>
       {colors.map((color) => (
         <li key={ color.hex }>
