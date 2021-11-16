@@ -8,29 +8,29 @@ class LoginForm extends React.Component {
           password: '',
     };
     this.handleChange = this.handleChange.bind(this);
-    this.handleChangePassword = this.handleChangePassword.bind(this);
   }
 
   handleChange(event){
     this.setState({
-      email: event.target.value,
+      [event.target.name]: event.target.value,
+      [event.target.name]: event.target.value,
     });
   }
 
-  handleChangePassword(event){
-    this.setState({
-      password: event.target.value,
-    });
+  handleSubmit = (event) => {
+      event.preventDefault();
+      const { email } = this.state;
+      alert(`Login efetuado com o email: ${ email } !`)
   }
+
   render() {
-    const { email } = this.state;
-    const { password } = this.state;
+    const { email, password  } = this.state;
     return (
     <section className="login-form">
     <h1>Login</h1>
-    <form>
+    <form onSubmit={ this.handleSubmit }>
         <label htmlFor="email">
-            Email:
+            <p>Email:</p>
             <input
             value= { email }
             onChange= { this.handleChange } 
@@ -41,10 +41,10 @@ class LoginForm extends React.Component {
         </label>
         <br />
         <label htmlFor="password">
-            Password:
+            <p>Password:</p>
             <input
             value= { password }
-            onChange= { this.handleChangePassword } 
+            onChange= { this.handleChange } 
             type="password"
             name="password"
             id="password"
