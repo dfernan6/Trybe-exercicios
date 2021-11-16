@@ -1,30 +1,27 @@
 import React from 'react';
-import './App.css';
-import Body from './componentes/Body';
-import Tittle from './componentes/Tittle';
-import Image from './componentes/Image';
-import Training from './componentes/Training';
-import colors from './componentes/Colors';
+import Body from './Body';
+import Tittle from './Tittle';
+import Image from './Image';
+import Training from './Training';
+import colors from './Colors';
 
-class mainPage extends React.Component {
+class MainPage extends React.Component {
   constructor() {
     super();
     this.state = {
       filterInput:'',
     };
-
     this.handleChange = this.handleChange.bind(this);
   }
 
-    handleChange(event) {
-    
+    handleChange(event) {  
     this.setState({ filterInput: event.target.value });
   }
 
   render (){
     const { filterInput } = this.state;
     return (
-    <main>
+    <main className="MainPage">
     <div>
     <Tittle texto="Cabeçalho"/>
     <Body readings="Lorem ipsum dolor sit amet, 
@@ -60,4 +57,4 @@ class mainPage extends React.Component {
   }
 }
 
-export default mainPage;
+export default MainPage;
