@@ -25,6 +25,11 @@ main {
   display: flex;
 }
 
+.MainPage {
+  display: flex;
+  flex-direction: column;
+}
+
 .App .login-form {
   width: 50%;
   border-right: 1px solid;
@@ -52,4 +57,26 @@ button {
   background-color: rgb(66, 89, 192);
   color: aliceblue;
   margin-top: 30px;
+}
+
+h4 {
+  color: aquamarine;
+  background-color: black;
+  height: 45px;
+}
+
+h4:hover {
+  color: cadetblue;
+  background-color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: cadetblue;
+  background-color: rgb(255, 255, 255);
+  height: 45px;
+}
+
+h3:hover {
+  color: aquamarine;
+  background-color: black;
 }
